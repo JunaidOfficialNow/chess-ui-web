@@ -85,9 +85,13 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/chessbordjs/www/css/chessboard.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/chessboardjs/www/js/chessboard.js"
+            ]
           }
         }
       }

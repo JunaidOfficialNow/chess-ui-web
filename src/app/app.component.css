@@ -1,0 +1,38 @@
+
+
+.board {
+  width: 45vw;
+  aspect-ratio: 1;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: 1fr;
+  border: 10px black groove;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  
+}
+
+
+.row:nth-child(odd) > .cell:nth-child(even) {
+  background-color: rgb(27, 139, 27);
+}
+
+ .row:nth-child(odd) > .cell:nth-child(odd) {
+  background-color: white;
+}
+
+.row:nth-child(even) > .cell:nth-child(even) {
+  background-color: white;
+}
+
+.row:nth-child(even) > .cell:nth-child(odd) {
+  background-color: rgb(27, 139, 27);
+}
+
+
+
+
