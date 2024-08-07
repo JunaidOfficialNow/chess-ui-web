@@ -6,7 +6,18 @@
   display: grid;
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: 1fr;
-  border: 10px black groove;
+  border: 10px rgb(86, 86, 86) groove;
+}
+
+.cell {
+  display: grid;
+  place-items: center;
+}
+
+
+img {
+  height: 90%;
+  width: 90%;
 }
 
 .row {
